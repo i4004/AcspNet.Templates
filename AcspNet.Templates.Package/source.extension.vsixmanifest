@@ -21,5 +21,6 @@
 	</Installation>
 	<Assets>
 		<Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\AcspNet.Templates.Katana.zip" />
+		<Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\AcspNet.Templates.SelfHosted.zip" />
 	</Assets>
 </PackageManifest>
