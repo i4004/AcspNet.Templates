@@ -1,0 +1,45 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+	<TemplateData>
+		<Name>AcspNet Initial Katana Web Application</Name>
+		<Description>A project template for creating AcspNet web application using Katana (ASP.NET/IIS) hosting.</Description>
+		<ProjectType>CSharp</ProjectType>
+		<ProjectSubType>
+		</ProjectSubType>
+		<SortOrder>1000</SortOrder>
+		<CreateNewFolder>true</CreateNewFolder>
+		<DefaultName>WebApplication</DefaultName>
+		<ProvideDefaultName>true</ProvideDefaultName>
+		<LocationField>Enabled</LocationField>
+		<EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+		<Icon>Icon.ico</Icon>
+	</TemplateData>
+	<TemplateContent>
+		<Project TargetFileName="AcspNet.Templates.Katana.csproj" File="AcspNet.Templates.Katana.csproj" ReplaceParameters="true">
+			<Folder Name="App_Data" TargetFolderName="App_Data">
+				<ProjectItem ReplaceParameters="true" TargetFileName="StringTable.en.xml">StringTable.en.xml</ProjectItem>
+			</Folder>
+			<Folder Name="Controllers" TargetFolderName="Controllers">
+				<ProjectItem ReplaceParameters="true" TargetFileName="DefaultController.cs">DefaultController.cs</ProjectItem>
+			</Folder>
+			<ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+			<Folder Name="Properties" TargetFolderName="Properties">
+				<ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+			</Folder>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>
+			<Folder Name="Templates" TargetFolderName="Templates">
+				<Folder Name="AcspNet" TargetFolderName="AcspNet">
+					<Folder Name="MessageBox" TargetFolderName="MessageBox">
+						<ProjectItem ReplaceParameters="false" TargetFileName="ErrorMessageBox.tpl">ErrorMessageBox.tpl</ProjectItem>
+						<ProjectItem ReplaceParameters="false" TargetFileName="InfoMessageBox.tpl">InfoMessageBox.tpl</ProjectItem>
+						<ProjectItem ReplaceParameters="false" TargetFileName="InlineErrorMessageBox.tpl">InlineErrorMessageBox.tpl</ProjectItem>
+						<ProjectItem ReplaceParameters="false" TargetFileName="InlineInfoMessageBox.tpl">InlineInfoMessageBox.tpl</ProjectItem>
+						<ProjectItem ReplaceParameters="false" TargetFileName="InlineOkMessageBox.tpl">InlineOkMessageBox.tpl</ProjectItem>
+						<ProjectItem ReplaceParameters="false" TargetFileName="OkMessageBox.tpl">OkMessageBox.tpl</ProjectItem>
+					</Folder>
+				</Folder>
+				<ProjectItem ReplaceParameters="false" TargetFileName="Master.tpl">Master.tpl</ProjectItem>
+			</Folder>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+		</Project>
+	</TemplateContent>
+</VSTemplate>
