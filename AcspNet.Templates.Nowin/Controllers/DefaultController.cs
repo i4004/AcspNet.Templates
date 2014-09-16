@@ -1,4 +1,5 @@
-﻿using AcspNet.Attributes;
+﻿using AcspNet;
+using AcspNet.Attributes;
 using AcspNet.Responses;
 
 namespace $safeprojectname$.Controllers

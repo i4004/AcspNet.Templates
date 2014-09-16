@@ -44,7 +44,7 @@
 			<ProjectItem ReplaceParameters="true" TargetFileName="Install.bat">Install.bat</ProjectItem>
 			<ProjectItem ReplaceParameters="true" TargetFileName="Uninstall.bat">Uninstall.bat</ProjectItem>
 			<ProjectItem ReplaceParameters="true" TargetFileName="WebApplicationStartup.cs">WebApplicationStartup.cs</ProjectItem>
-			<ProjectItem ReplaceParameters="true" TargetFileName="ServiceInstaller.cs">UninServiceInstallerstall.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="ServiceInstaller.cs">ServiceInstaller.cs</ProjectItem>
 		</Project>
 	</TemplateContent>
 </VSTemplate>
