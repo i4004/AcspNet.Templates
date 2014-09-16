@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
 	<TemplateData>
-		<Name>AcspNet Initial Katana Web Application</Name>
-		<Description>A project template for creating IIS hosted web application using Katana web-server.</Description>
+		<Name>AcspNet Initial Windows-Service Web Application</Name>
+		<Description>A project template for creating AcspNet windows-service-hosted web application using HttpListener as a web-server.</Description>
 		<ProjectType>CSharp</ProjectType>
 		<ProjectSubType>
 		</ProjectSubType>
@@ -14,7 +14,7 @@
 		<Icon>Icon.ico</Icon>
 	</TemplateData>
 	<TemplateContent>
-		<Project TargetFileName="AcspNet.Templates.Katana.csproj" File="AcspNet.Templates.Katana.csproj" ReplaceParameters="true">
+		<Project TargetFileName="AcspNet.Templates.WindowsService.csproj" File="AcspNet.Templates.WindowsService.csproj" ReplaceParameters="true">
 			<Folder Name="App_Data" TargetFolderName="App_Data">
 				<ProjectItem ReplaceParameters="true" TargetFileName="StringTable.en.xml">StringTable.en.xml</ProjectItem>
 			</Folder>
@@ -26,6 +26,7 @@
 				<ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
 			</Folder>
 			<ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
 			<Folder Name="Templates" TargetFolderName="Templates">
 				<Folder Name="AcspNet" TargetFolderName="AcspNet">
 					<Folder Name="MessageBox" TargetFolderName="MessageBox">
@@ -39,7 +40,11 @@
 				</Folder>
 				<ProjectItem ReplaceParameters="false" TargetFileName="Master.tpl">Master.tpl</ProjectItem>
 			</Folder>
-			<ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Install.bat">Install.bat</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Uninstall.bat">Uninstall.bat</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="WebApplicationStartup.cs">WebApplicationStartup.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="ServiceInstaller.cs">UninServiceInstallerstall.cs</ProjectItem>
 		</Project>
 	</TemplateContent>
 </VSTemplate>

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcspNet.Templates.Katana", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcspNet.Templates.SelfHosted", "AcspNet.Templates.SelfHosted\AcspNet.Templates.SelfHosted.csproj", "{F2151AB2-0841-42D0-8E6C-3272105E9358}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcspNet.Templates.Nowin", "AcspNet.Templates.Nowin\AcspNet.Templates.Nowin.csproj", "{20E4FA79-169E-4E12-A69A-B11C2ACFD4F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcspNet.Templates.WindowsService", "AcspNet.Templates.WindowsService\AcspNet.Templates.WindowsService.csproj", "{D342FB8D-669E-4F71-BB4C-221A4B66DFED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{09D2534F-81D1-4584-B8CD-FA04FC027635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2151AB2-0841-42D0-8E6C-3272105E9358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F2151AB2-0841-42D0-8E6C-3272105E9358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E4FA79-169E-4E12-A69A-B11C2ACFD4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E4FA79-169E-4E12-A69A-B11C2ACFD4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D342FB8D-669E-4F71-BB4C-221A4B66DFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D342FB8D-669E-4F71-BB4C-221A4B66DFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
