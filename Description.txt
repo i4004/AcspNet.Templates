@@ -1,6 +1,11 @@
 AcspNet web-framework project templates.
 
-Incudes a project template for creating AcspNet web application using Katana (ASP.NET/IIS) hosting and a project template for creating AcspNet self-hosted web application using HttpListener hosting.
+Incudes:
+
+    Project template for creating AcspNet web application using Katana (ASP.NET/IIS) hosting;
+    Project template for creating AcspNet self-hosted web application using HttpListener hosting;
+    Project template for creating AcspNet self-hosted web application using NOWIN web-server;
+    Project template for creating AcspNet windows-service-hosted web application using HttpListener as a web-server.
 
 Templates sources: https://github.com/i4004/AcspNet.Templates
 
