@@ -35,9 +35,7 @@
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServiceInstaller.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="ServiceInstaller.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="WebApplicationStartup.cs" />
   </ItemGroup>
@@ -74,7 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="AcspNet">
-      <HintPath>..\packages\AcspNet.5.0.0-beta1\lib\net45\AcspNet.dll</HintPath>
+      <HintPath>..\packages\AcspNet.5.0.0.0\lib\net45\AcspNet.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin">
