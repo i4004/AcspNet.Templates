@@ -64,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="AcspNet">
-      <HintPath>..\packages\AcspNet.5.0.0.0\lib\net45\AcspNet.dll</HintPath>
+      <HintPath>..\packages\AcspNet.5.1.2.0\lib\net45\AcspNet.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin">
@@ -80,14 +80,14 @@
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
     <Reference Include="Simplify.DI">
-      <HintPath>..\packages\Simplify.DI.1.0.2.0\lib\net45\Simplify.DI.dll</HintPath>
+      <HintPath>..\packages\Simplify.DI.1.0.3.0\lib\net45\Simplify.DI.dll</HintPath>
     </Reference>
     <Reference Include="Simplify.Templates">
-      <HintPath>..\packages\Simplify.Templates.1.1.0.0\lib\net45\Simplify.Templates.dll</HintPath>
+      <HintPath>..\packages\Simplify.Templates.1.1.2.0\lib\net45\Simplify.Templates.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.IO.Abstractions">
-      <HintPath>..\packages\System.IO.Abstractions.1.4.0.86\lib\net35\System.IO.Abstractions.dll</HintPath>
+      <HintPath>..\packages\System.IO.Abstractions.1.4.0.92\lib\net35\System.IO.Abstractions.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
